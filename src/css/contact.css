@@ -1,0 +1,55 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.contact-middle{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 200px;
+    height: 400px;
+    background-image: url("../components/image/iphone.jpg");
+    background-size: cover;
+    border-radius: 30px;
+    
+}
+.contact-middle-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 80px;
+    background-color: grey;
+}
+.contact-right{
+    margin-left: 80px;
+}
+.download-top{
+    margin-bottom: 20px;
+}
+.contact-details{
+    margin-top: 20px;
+}
+.download-bottom{
+    width: 200px;
+    height: 200px;
+    background-image: url("../components/image/qr.png");
+    background-size: cover;
+}
+@media only screen and (max-width: 500px) {
+    .contact-middle{
+        display:none;
+        width: 200px;
+        height: 400px;
+        background-image: url("../components/image/iphone.jpg");
+        background-size: cover;
+        border-radius: 30px;
+    }
+    .contact-right{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,129 @@
+.products-container{
+    position: absolute;
+    top: 7%;
+    left:50%;
+    transform: translate(-50%,-0%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 90vw;
+    height: 700px;
+}
+.products-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff ;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+span{
+    padding: 10px 3px;
+    border-bottom: 4px solid #ffffff;
+}
+span:hover{
+    padding: 10px 25px;
+    border: 4px solid #ffffff;
+}
+.products-container div:hover{
+    transform: translate(0,-2px) scale(1.1);
+    translate: all .2s ease ;
+}
+.ginza{
+    background-size:cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F4.png?alt=media&token=52f0fc36-86db-4001-94e7-a649408abdcd");
+}
+.kissy{
+    background-size:cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F8.png?alt=media&token=98b09932-45d0-4e26-8eca-e99a90e5668d");
+}
+.lirosa{
+    background-size:cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F9.png?alt=media&token=81e5f9d2-a4f6-4d0d-b6d3-2f6fc11f586b");
+}
+.ovid{
+    background-size:cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F6.png?alt=media&token=b24c33f5-dd1c-4cd8-b035-f25b01dc2780");
+}
+.salmon{
+    background-size: cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F7.png?alt=media&token=a7001684-5e3b-4307-8748-b594d280a870");
+}
+.wangxilie{
+    background-size: cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F2.png?alt=media&token=5ac8bdc1-029e-4d77-951e-337087634d83");
+}
+.liziran{
+    background-size: cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F5.png?alt=media&token=18ada879-c6e2-47c6-9aef-d307be04c11e");
+}
+.liangpupuzi{
+    background-size: cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F1.png?alt=media&token=034e1b7e-c5d5-420f-a97c-7598130b9581");
+}
+.ermutao{
+    background-size: cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ecommerceapp-dev.appspot.com/o/Brand%20Images%2F3.png?alt=media&token=ee83dac2-9f3c-41ab-8e1e-4bd535ea6166");
+}
+@media only screen and (max-width: 1024px) {
+    .products-container{
+        position: absolute;
+        top: 7%;
+        left:50%;
+        transform: translate(-50%,-0%);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        width: 80vw;
+        height: 60vh;
+    }
+    .products-container div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#ffffff ;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    span:hover{
+        padding: 7px 22px;
+        border: 3px solid #ffffff;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .products-container{
+        position: absolute;
+        top: 7%;
+        left:50%;
+        transform: translate(-50%,-0%);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
+        column-gap: 5px;
+        row-gap: 5px;
+        width: 80vw;
+        height: 90vh;
+    }
+    .products-container div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#ffffff ;
+        font-size: 10px;
+        font-weight: bold;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    span:hover{
+        padding: 5px 20px;
+        border: 3px solid #ffffff;
+    }
+}
